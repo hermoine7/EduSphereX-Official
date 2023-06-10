@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EduSocialSphereX - Education</title>
+        <link href="../style2.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    </head>
+
+    <body style="background-color: #311533;"> 
+
+        <div id="navigation" style="display: flex; justify-content: space-between;align-items: center;">
+            <div>
+                <img src="../assets/logo.png" style="width: 150px; height: 120px;margin-right: 150px;"/>
+            </div>
+            <div style="margin-right: 80px;">
+            <ul class="nav nav-underline">
+                <li class="nav-item" style="margin-right: 100px;">
+                    <center>
+                    <img src="../assets/social_media.png" style="width: 30px; height: 30px;"/>
+                    <a class="nav-link" href="./social.html" style="color: white;">Social</a>
+                    </center>
+                </li>
+                <li class="nav-item" style="margin-right: 100px;">
+                    <center>
+                    <img src="../assets/education.png" style="width: 30px; height: 30px;"/>
+                    <a class="nav nav-underline" href="./edu.html" style="color: white;">Education</a>
+                    </center>
+                </li>
+                <li class="nav-item" style="margin-right: 100px;">
+                    <center>
+                    <img src="../assets/STEM.png" style="width: 30px; height: 30px;"/>
+                    <a class="nav-link" href="./STEM.html" style="color: white;">STEM</a>
+                    </center>
+                </li>
+                <li class="nav-item" style="margin-right: 100px;">
+                    <center>
+                    <img src="../assets/social_media.png" style="width: 30px; height: 30px;"/>
+                    <a class="nav-link" href="./service.html" style="color: white;">Service</a>
+                    </center>
+                </li>
+                <li class="nav-item" style="margin-right: 50px;">
+                    <center>
+                    <img src="../assets/cart.png" style="width: 30px; height: 30px;"/>
+                    <a class="nav-link" href="./thrift.html" style="color: white;">Thrift</a>
+                    </center>
+                </li>
+            </ul>
+            </div>
+            <div style="display: flex; margin-right: 20px;">
+                <img src="../assets/profile.png" style="width: 50px; height: 50px;" onclick="window.location.href='./profile.html'"/>
+                <img src="../assets/settings.png" style="width: 55px; height: 60px; margin-left: 20px; margin-top: -4px;" onclick="window.location.href='./settings.html'"/>
+                <img src="../assets/cart.png" style="width: 50px; height: 50px; margin-left: 20px; margin-top: -4px;" onclick="window.location.href='./cart.html'"/>
+                <img src="../assets/notification.png" style="width: 40px; height: 40px; margin-left: 20px; margin-top: 4px;" onclick="window.location.href='./notification.html'"/>
+            </div>
+        </div>
+
+        <center>
+            <input type="text" placeholder="Search.." class="search">
+        </center>
+
+        <div style="display: flex; margin-top: 40px; margin-left: 50px; align-items: center;">
+            <h3 style="color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 25px; font-weight: bold; margin-top: 5px;">Notes</h3>
+            <div style="margin-left: 20px;">
+                <select name="grade" id="notespick">
+                    <option value="M1">Math IB</option>
+                    <option value="P1">Physics IB</option>
+                </select>
+            </div>
+        </div>
+
+        <center>
+            <div class="edu">
+                <div style="display: flex; align-items: center;">
+                <div style="width: 75%; text-align: left; margin-left: 40px;">
+                    <h3 id= "title1" style="font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold;">Polynomials Summary</h3>
+                    <h3 id="subtitle1" style="font-family: 'Trebuchet MS', sans-serif; font-size: 15px;">Level - Hard</h3>
+                </div>
+                <div>
+                    <img id="pic1" src="../photos/poly.jpeg" style="width: 175px; height: 120px; margin-left: 20px;"/>
+                </div>
+                </div>
+            </div>
+
+            <div class="edu">
+                <div style="display: flex; align-items: center;">
+                <div style="width: 75%; text-align: left; margin-left: 40px;">
+                    <h3 id="title2" style="font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold;">Linear Equations Summary</h3>
+                    <h3 id="subtitle2" style="font-family: 'Trebuchet MS', sans-serif; font-size: 15px;">Level - Medium</h3>
+                </div>
+                <div>
+                    <img id="pic2" src="../photos/lin.png" style="width: 175px; height: 120px; margin-left: 20px;"/>
+                </div>
+                </div>
+            </div>
+        </center>
+
+
+        <div style="display: flex; margin-top: 40px; margin-left: 50px; align-items: center;">
+            <h3 style="color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 25px; font-weight: bold; margin-top: 5px;">Lectures</h3>
+            <div style="margin-left: 20px;">
+                <select name="grade" id="lec">
+                    <option value="P">Physics IB</option>
+                    <option value="M2">Math IB</option>
+                </select>
+            </div>
+        </div>
+
+        <center>
+            <div class="edu">
+                <div style="display: flex; align-items: center;">
+                <div style="width: 75%; text-align: left; margin-left: 40px;">
+                    <h3 id="title3" style="font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold;">Electromagnetism Lecture</h3>
+                    <h3 id="subtitle3" style="font-family: 'Trebuchet MS', sans-serif; font-size: 15px;">Level - Hard</h3>
+                </div>
+                <div>
+                    <img id="pic3" src="../photos/elec.png" style="width: 175px; height: 120px; margin-left: 20px;"/>
+                </div>
+                </div>
+            </div>
+
+            <div class="edu">
+                <div style="display: flex; align-items: center;">
+                <div style="width: 75%; text-align: left; margin-left: 40px;">
+                    <h3 id="title4" style="font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold;">Motion lecture</h3>
+                    <h3 id="subtitle4" style="font-family: 'Trebuchet MS', sans-serif; font-size: 15px;">Level - Easy</h3>
+                </div>
+                <div>
+                    <img id="pic4" src="../photos/mot.png" style="width: 175px; height: 120px; margin-left: 20px;"/>
+                </div>
+                </div>
+            </div>
+        </center>
+    </body>
+
+    <script>
+        var notes = document.getElementById("notespick")
+        var t1 = document.getElementById("title1")
+        var t2 = document.getElementById("title2")
+        var s2 = document.getElementById("subtitle2")
+        var i1 = document.getElementById("pic1")
+        var i2 = document.getElementById("pic2")
+
+        var lec = document.getElementById("lec")
+        var t3 = document.getElementById("title3")
+        var t4 = document.getElementById("title4")
+        var s4 = document.getElementById("subtitle4")
+        var i3 = document.getElementById("pic3")
+        var i4 = document.getElementById("pic4")
+
+        notes.addEventListener("change", function() {
+            if(notes.value == "P1"){
+                t1.innerHTML = "Electromagnetism Notes"
+                i1.src = "../photos/elec.png"
+                t2.innerHTML = "Motion Notes"
+                s2.innerHTML = "Level - Easy"
+                i2.src= "../photos/mot.png"
+            }
+            else {
+                t1.innerHTML = "Polynomial Notes"
+                i1.src = "../photos/poly.jpeg"
+                t2.innerHTML = "Linear Equation Notes"
+                s2.innerHTML = "Level - Medium"
+                i2.src= "../photos/lin.png"
+            }
+        })
+        lec.addEventListener("change", function() {
+            if(lec.value == "M2"){
+                t3.innerHTML = "Polynomial Lecture"
+                i3.src = "../photos/poly.jpeg"
+                t4.innerHTML = "Linear Equations Lecture"
+                s4.innerHTML = "Level - Medium"
+                i4.src= "../photos/lin.png"
+            }
+            else {
+                t3.innerHTML = "Electromagnetism Lecture"
+                i3.src = "../photos/elec.png"
+                t4.innerHTML = "Motion Lecture"
+                s4.innerHTML = "Level - Easy"
+                i4.src= "../photos/mot.png"
+            }
+        })
+    </script>
+</html>

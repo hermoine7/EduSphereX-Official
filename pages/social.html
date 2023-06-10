@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EduSocialSphereX - Social</title>
+        <link href="../style2.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    </head>
+
+    <body style="background-color: #311533;"> 
+        <div id="navigation" style="display: flex; justify-content: space-between;align-items: center;">
+            <div>
+                <img src="../assets/logo.png" style="width: 150px; height: 120px;margin-right: 150px;"/>
+            </div>
+            <div style="margin-right: 100px;">
+            <ul class="nav nav-underline">
+                <li class="nav-item" style="margin-right: 80px;">
+                    <center>
+                    <img src="../assets/social_media.png" style="width: 30px; height: 30px;"/>
+                    <a class="nav nav-underline" href="./social.html" style="color: white;">Social</a>
+                    </center>
+                </li>
+                <li class="nav-item" style="margin-right: 100px;">
+                    <center>
+                    <img src="../assets/education.png" style="width: 30px; height: 30px;"/>
+                    <a class="nav-link" href="./edu.html" style="color: white;">Education</a>
+                    </center>
+                </li>
+                <li class="nav-item" style="margin-right: 100px;">
+                    <center>
+                    <img src="../assets/STEM.png" style="width: 30px; height: 30px;"/>
+                    <a class="nav-link" href="./STEM.html" style="color: white;">STEM</a>
+                    </center>
+                </li>
+                <li class="nav-item" style="margin-right: 100px;">
+                    <center>
+                    <img src="../assets/social_media.png" style="width: 30px; height: 30px;"/>
+                    <a class="nav-link" href="./service.html" style="color: white;">Service</a>
+                    </center>
+                </li>
+                <li class="nav-item" style="margin-right: 50px;">
+                    <center>
+                    <img src="../assets/cart.png" style="width: 30px; height: 30px;"/>
+                    <a class="nav-link" href="./thrift.html" style="color: white;">Thrift</a>
+                    </center>
+                </li>
+            </ul>
+            </div>
+            <div style="display: flex; margin-right: 20px;">
+                <img src="../assets/profile.png" style="width: 50px; height: 50px;" onclick="window.location.href='./profile.html'"/>
+                <img src="../assets/settings.png" style="width: 55px; height: 60px; margin-left: 20px; margin-top: -4px;" onclick="window.location.href='./settings.html'"/>
+                <img src="../assets/cart.png" style="width: 50px; height: 50px; margin-left: 20px; margin-top: -4px;" onclick="window.location.href='./cart.html'"/>
+                <img src="../assets/notification.png" style="width: 40px; height: 40px; margin-left: 20px; margin-top: 4px;" onclick="window.location.href='./notification.html'"/>
+            </div>
+        </div>
+
+        <center>
+            <input type="text" placeholder="Search..." class="search">
+        </center>
+
+        <center>
+            <div class="post">
+                <div style="display: flex;" onclick="window.location.href='./profile.html'">
+                    <img src="../assets/profile.png" style="height: 50px; width: 50px;">
+                    <h3 style="font-family: 'Trebuchet MS', sans-serif; font-size: 18px; text-align: left; margin-left: 10px; margin-top: 15px;">Shreya</h3>
+                </div>
+                <center>
+                    <img src="../photos/post1.jpg" style="width: 95%; height: 500px; margin-top: 10px;">
+                </center>
+                <div style="display: flex; margin-top: 5px; margin-left: 10px;">
+                    <img id="like" src="../assets/like.png" style="height: 40px; width: 40px;">
+                    <a href="#com"><img src="../assets/comment.png" style="height: 40px; width: 40px; margin-left: 20px; margin-top: 5px;"></a>
+                    <img src="../assets/share.png" style="height: 40px; width: 40px; margin-left: 20px; margin-top: 3px;">
+                </div>
+                <h3 style="font-family: Calibri; font-size: 22px;margin-top: 5px; text-align: left; margin-left: 20px;">Ten more days to summerr :)</h3>
+                <input id="com" class="textar" name="user_text" placeholder="Write a comment" style="width: 90%; height: 40px;" />
+            </div>
+
+            <div class="post">
+                <div style="display: flex;">
+                    <img src="../assets/profile.png" style="height: 50px; width: 50px;">
+                    <h3 style="font-family: 'Trebuchet MS', sans-serif; font-size: 18px; text-align: left; margin-left: 10px; margin-top: 15px;">Aasha</h3>
+                </div>
+                <center>
+                    <img src="../photos/post2.jpg" style="width: 95%; height: 500px; margin-top: 10px;">
+                </center>
+                <div style="display: flex; margin-top: 5px; margin-left: 10px;">
+                    <img id="like2" src="../assets/like.png" style="height: 40px; width: 40px;">
+                    <a href="#com2"><img src="../assets/comment.png" style="height: 40px; width: 40px; margin-left: 20px; margin-top: 5px;"></a>
+                    <img src="../assets/share.png" style="height: 40px; width: 40px; margin-left: 20px; margin-top: 3px;">
+                </div>
+                <h3 style="font-family: Calibri; font-size: 22px;margin-top: 5px; text-align: left; margin-left: 20px;"> Final Exam Prep << </h3>
+                <input id="com2" class="textar" name="user_text" placeholder="Write a comment" style="width: 90%; height: 40px;" />
+            </div>
+        </center>
+
+        <button style="position: fixed; bottom: 20px; right: 20px; background-color: white; width: 50px; height: 50px;  border-radius: 1cm; border: 0px;" onclick="window.location.href='./chats.html'">
+            <center>
+            <img src="../assets/chat.png" style="height: 50px; width: 50px; margin-left: -10px; margin-top: 5px;">
+            </center>
+        </button>
+        <button id="addpostt" style="position: fixed; bottom: 20px; right: 100px; background-color: white; width: 50px; height: 50px;  border-radius: 1cm; border: 0px;">
+            <center>
+            <img src="../assets/add.png" style="height: 50px; width: 50px; margin-left: -10px; margin-top: 5px;">
+            </center>
+        </button>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h3 style="margin-left: 50px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; margin-top: 25px;">Add Photo/Video</h3>
+                <form style="margin-left: 50px;">
+                    <input type="file" style="height: 30px;font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; " >
+                    <br>
+                    <br>
+                    <h3 style="font-family: 'Trebuchet MS', sans-serif; font-size: 20px;">Add a Description</h3>
+                    <input class="textar" name="user_text" placeholder="Description of the Post" style="width: 80%; height: 100px;" />
+                    <h3 style="font-family: 'Trebuchet MS', sans-serif; font-size: 20px;">Tag a Friend</h3>
+                    <input class="textar" name="user_text" placeholder="Tag people" style="width: 40%;" />
+                </form>
+                <center>
+                    <button class="but2" id="myButton" style="color: white; background-color: #311533;">Post</button>
+                </center>
+            </div>
+          </div>
+
+        <script>
+            var click = 0
+            var l = document.getElementById("like");
+
+            var a = document.getElementById("addpostt");
+            var m = document.getElementById("myModal")
+            var close = document.getElementsByClassName("close")[0];
+            var b = document.getElementById("myButton")
+
+            b.addEventListener("click", function(){
+                m.style.display = "none";
+                alert("Posted!!")
+            })
+
+            close.onclick = function() {
+            m.style.display = "none";
+            };
+
+            window.onclick = function(event) {
+            if (event.target == m) {
+                m.style.display = "none";
+            }
+            };
+
+            a.addEventListener("click", function(){
+                m.style.display = "block";
+            })
+
+            l.addEventListener("click", function(){
+                click++;
+                if(click%2 == 1){
+                    l.src = "../assets/like copy.png"
+                }
+                else{
+                    l.src = "../assets/like.png"
+                }
+            })
+
+            var click2 = 0
+            var l2 = document.getElementById("like2");
+            l2.addEventListener("click", function(){
+                click2++;
+                if(click2%2 == 1){
+                    l2.src = "../assets/like copy.png"
+                }
+                else{
+                    l2.src = "../assets/like.png"
+                }
+            })
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EduSocialSphereX - Add Product</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+
+    <body style="background-color: #311533;"> 
+        <div id="navigation" style="display: flex; align-items: center;">
+            <div>
+                <img src="../assets/Back.png" style="width: 100px; height: 100px;margin-right: 150px;" onclick="window.history.back()"/>
+            </div>
+            <div style="margin-left: 360px;">
+                <img src="../assets/logo.png" style="width: 200px; height: 150px;margin-right: 150px;"/>
+            </div>
+        </div> 
+
+        <h3 style="margin-left: 50px; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; margin-top: 25px;">Add Photos of Product</h3>
+        <form style="margin-left: 50px;">
+            <input type="file" style="height: 30px; color: white; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; " >
+            <br>
+            <h3 style="color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 20px;">Add a Description</h3>
+            <input class="textar" name="user_text" placeholder="Details of Product" style="width: 80%; height: 100px;" />
+            <h3 style="color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 20px;">Add a Price</h3>
+            <input class="textar" name="user_text" placeholder="Price of Product" style="width: 40%;" />
+        </form>
+
+        <center>
+            <button type="submit" class="subbut" style="margin-bottom: 20px; margin-top: 20px; width:30%; height: 40px; font-weight: bold; font-size: 18px; background-color: #706A6F; color: black" onclick="alert('Product Added')">Add Product</button>
+        </center>
+
+    </body>
+</html>

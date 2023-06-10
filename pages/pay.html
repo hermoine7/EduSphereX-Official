@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EduSocialSphereX - Payment</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+
+    <body style="background-color: #311533;"> 
+        <div id="navigation" style="display: flex; align-items: center;">
+            <div>
+                <img src="../assets/Back.png" style="width: 100px; height: 100px;margin-right: 150px;" onclick="window.history.back()"/>
+            </div>
+            <div style="margin-left: 360px;">
+                <img src="../assets/logo.png" style="width: 200px; height: 150px;margin-right: 150px;"/>
+            </div>
+        </div> 
+
+        <center>
+            <img src="../assets/paylogo.png" style="height: 100px; width: 250px;">
+        </center>
+      
+        <h3 style="margin-left: 50px; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 20px;">Add UPI ID</h3>
+        <form>
+            <input class="textar" name="user_text" placeholder="UPI ID" style="width: 40%; margin-left: 50px;" />
+            <button type="submit" class="but3" style="height: 35px; margin-left: 20px;" onclick="alert('UPI ID is authenticated')">Submit</button>
+        </form>
+
+        <h3 style="margin-left: 50px; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; margin-top: 35px;">Pay To-</h3>
+        <form>
+            <input class="textar" name="user_text" placeholder="Pay to" style="width: 40%; margin-left: 50px;" required/>
+            <br>
+        </form>
+
+        <h3 style="margin-left: 50px; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; margin-top: 35px;" >Pay Amount-</h3>
+        <form>
+            <input class="textar" name="user_text" placeholder="Pay Amount" style="width: 40%; margin-left: 50px;" required/>
+            <br>
+        </form>
+
+        <center>
+            <button type="submit" class="subbut" style="margin-bottom: 20px; margin-top: 20px; width:30%; height: 40px; font-weight: bold; font-size: 18px; background-color: #706A6F; color: black" onclick="alert('Payment Done')">Pay Now</button>
+        </center>
+    </body>
+</html>
